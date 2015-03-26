@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Workflow Designer",
+  "description": "Workflow Designer for Chrome",
+  "version": "1.0.0",
+  "minimum_chrome_version": "23",
+  "icons": {
+    "16": "./img/icon_16.png",
+    "128": "./img/icon_128.png"
+  },
+  "app": {
+    /*"background": {
+      "scripts": ["main.js"]
+    }*/
+  }
+}
