@@ -10,6 +10,10 @@ module.exports = function(grunt) {
         src: 'src/<%= pkg.name %>.js',
         dest: 'build/<%= pkg.name %>.min.js'
       }
+    },
+    server: {
+      port: 8080,
+      base: './web-root'
     }
   });
 
